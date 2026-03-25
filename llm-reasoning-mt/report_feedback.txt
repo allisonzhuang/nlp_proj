@@ -1,0 +1,14 @@
+Thank you for the report.
+
+First, I want to emphasize that you can ask me for guidance at any time. I usually respond to emails quickly, and I am also happy to make myself available for a Zoom or Webex call if discussing things live would be helpful.
+
+Below is some feedback on your proposed plan.
+
+	1	First, your plan is very strongly focused on replication. This is not a problem in itself; however, the project is also an opportunity for you to think beyond the paper. I do acknowledge the effort to propose an evaluation of CoTFT-BoA, but I would have expected to see more ideas overall (even if you did not plan to execute all of them).  
+	2	I would also have appreciated a clearer choice of evaluation metrics, similar to the clarity you provided for the choice of LLMs. Again, this is not necessarily an issue, but if you had already decided between BLEU, ChrF++, COMET, or MetricX, as well as the language directions to focus on, I could have provided more targeted feedback. The same applies to the number of in-context learning demonstrations and the prompting strategies you intend to prioritize, since you will likely not explore all possible options.
+	3	
+	4	Any effort toward human evaluation is welcome. I would encourage you to focus on languages you are proficient in (e.g., French) and to analyze inter-annotator agreement as well. One possible approach would be pairwise ranking between the thinking and non-thinking modes, although this is just one of several valid ways to conduct human evaluation
+	5	
+The purpose of the one-page report is to give me the opportunity to steer you away from overly burdensome, uninformative, or risky experiments before you invest too much time. What matters most to me is the quality of the final output. I am confident that you can produce a strong piece of work by combining replication with well-chosen alternative stress tests of the paper’s results.
+
+If you have any questions, feel free to reach out.

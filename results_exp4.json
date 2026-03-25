@@ -1,0 +1,12 @@
+[
+  {
+    "condition": "IoFT",
+    "bleu": 3.63,
+    "chrf": 19.82
+  },
+  {
+    "condition": "CoTFT(MAPS)",
+    "bleu": 4.07,
+    "chrf": 20.41
+  }
+]

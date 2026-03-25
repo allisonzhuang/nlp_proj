@@ -1,0 +1,74 @@
+[
+  {
+    "src": "English",
+    "tgt": "French",
+    "mode": "Thinking",
+    "bleu": 13.52,
+    "chrf": 36.01,
+    "translations": [
+      "Nous avons maintenant de 4 mois de mice non-diabétiques qui ont eu l'habitude de être diabétiques.",
+      "Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+      "final translation."
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "French",
+    "mode": "Non-Thinking",
+    "bleu": 24.93,
+    "chrf": 50.49,
+    "translations": [
+      "\"Nous avons maintenant des rats de 4 mois qui ne sont pas diabétiques, qui ont été diabétiques avant,\" a ajouté-il.",
+      "Dr. Ehud Ur, professeur de médecine à Dalhousie University, Halifax, Nova Scotia, et président du département clinique et scientifique de l'association canadienne de diabète, a souligné que la recherche est encore en cours.",
+      "Comme d'autres experts, il est sceptique sur la possibilité de guérir la diabète, soulignant que ces résultats ne sont pas pertinent pour les personnes déjà diabétiques Type 1."
+    ]
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "mode": "Thinking",
+    "bleu": 33.0,
+    "chrf": 57.68,
+    "translations": [
+      "\"‘We now have mice that are 4 months old, which are not diabetic, as opposed to what they were before,’ he added.\"",
+      "Dr. Ehud Ur, a professor of medicine at the University of Halifax (Nova Scotia), president of the Clinical and Scientific Division of the Canadian Diabetes Association, has warned that the research is still in its early stages.",
+      "In line with other experts, he shows skepticism about the possibility of curing diabetes, pointing out that these results are not applicable to people who already suffer from type 1 diabetes."
+    ]
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "mode": "Non-Thinking",
+    "bleu": 30.61,
+    "chrf": 59.12,
+    "translations": [
+      "« We now have 4-month mice that are not diabetic, whereas they were diabetic before », he added.",
+      "Dr. Ehud Ur, professor of medicine at the University of Halifax (Nova Scotia), and president of the Clinical and Scientific Division of the Canadian Diabetes Association, has warned that research is still in its early stages.",
+      "In like manner as other experts, he points out that the results are not applicable to people who already have type 1 diabetes."
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "Swahili",
+    "mode": "Thinking",
+    "bleu": 0.76,
+    "chrf": 8.54,
+    "translations": [
+      "user",
+      "Dr. Ehud",
+      "final translation."
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "Swahili",
+    "mode": "Non-Thinking",
+    "bleu": 0.57,
+    "chrf": 7.55,
+    "translations": [
+      "\"Kamani kama 4-mahto moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko moko",
+      "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia, and chair of the clinical and scientific division of the Canadian Diabetes Association, cautioned that the research is still in its early days.",
+      "Ko na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na"
+    ]
+  }
+]

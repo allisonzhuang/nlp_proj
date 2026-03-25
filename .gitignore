@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+venv/
+.env
+
+# Large files
+*.pdf
+
+# Model checkpoints
+*.pt
+*.bin
+*.safetensors

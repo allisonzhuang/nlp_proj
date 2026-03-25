@@ -1,0 +1,194 @@
+[
+  {
+    "src": "English",
+    "tgt": "French",
+    "strategy": "Baseline",
+    "bleu": 25.43,
+    "chrf": 51.13,
+    "samples": [
+      [
+        "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+        "\"Nous avons maintenant des rats de 4 mois qui ne sont pas diabétiques, qui ont été diabétiques avant,\" a ajouté-il.",
+        "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté."
+      ],
+      [
+        "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+        "Dr. Ehud Ur, professeur de médecine à Dalhousie University, Halifax, Nova Scotia, et président du département clinique et scientifique de l'association canadienne de diabète, a souligné que la recherche est encore en cours.",
+        "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts."
+      ],
+      [
+        "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+        "Comme d'autres experts, il est sceptique sur la possibilité de guérir la diabète, soulignant que ces résultats ne sont pas pertinent pour les personnes déjà diabétiques Type 1.",
+        "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1."
+      ]
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "French",
+    "strategy": "MAPS",
+    "bleu": 13.22,
+    "chrf": 36.2,
+    "samples": [
+      [
+        "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+        "1. **Extraire les mots-clés et les thèmes** : \"4 mois d'âge, des souris non-diabétiques qui ont été diabétiques avant\"",
+        "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté."
+      ],
+      [
+        "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+        "1. **Extraire les mots-clés et les thèmes** : Dr. Ehud Ur, professeur de médecine à Dalhousie University, Halifax, Nova Scotia, et président du département clinique et scientifique de l'Association canadienne de diabète, a souligné que le recherche est encore en cours de développement.",
+        "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts."
+      ],
+      [
+        "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+        "1. Extraire les mots-clés et les thèmes de : *« Il est sceptique de savoir si la diabète peut être réparé, notant que ces résultats n'ont pas de relevé pour les personnes déjà diabétiques de Type 1. »*",
+        "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1."
+      ]
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "French",
+    "strategy": "TEaR",
+    "bleu": 2.49,
+    "chrf": 14.23,
+    "samples": [
+      [
+        "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+        "**",
+        "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté."
+      ],
+      [
+        "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+        "**",
+        "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts."
+      ],
+      [
+        "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+        "**Step 1 (Translate):**",
+        "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1."
+      ]
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "French",
+    "strategy": "Self-Refine",
+    "bleu": 0.88,
+    "chrf": 8.35,
+    "samples": [
+      [
+        "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+        "**",
+        "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté."
+      ],
+      [
+        "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+        "1. **Traduction initiale :**",
+        "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts."
+      ],
+      [
+        "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+        "1. **Traduction initiale :**",
+        "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1."
+      ]
+    ]
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "strategy": "Baseline",
+    "bleu": 31.56,
+    "chrf": 60.06,
+    "samples": [
+      [
+        "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté.",
+        "« We now have 4-month mice that are not diabetic, whereas they were diabetic before », he added.",
+        "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added."
+      ],
+      [
+        "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts.",
+        "Dr. Ehud Ur, professor of medicine at the University of Halifax (Nova Scotia), and president of the Clinical and Scientific Division of the Canadian Diabetes Association, has warned that research is still in its early stages.",
+        "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days."
+      ],
+      [
+        "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1.",
+        "In like manner as other experts, he points out that the results are not applicable to people who already have type 1 diabetes.",
+        "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes."
+      ]
+    ]
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "strategy": "MAPS",
+    "bleu": 29.83,
+    "chrf": 53.19,
+    "samples": [
+      [
+        "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté.",
+        "\"We now have mice that are not diabetic, but they were diabetic before.\"",
+        "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added."
+      ],
+      [
+        "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts.",
+        "\"Dr. Ehud Ur, Professor of Medicine at the University of Halifax (Nova Scotia), President of the Clinical and Scientific Division of the Canadian Diabetes Association, has indicated that research is still in its early stages.\"",
+        "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days."
+      ],
+      [
+        "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1.",
+        "*In contrast to other experts, it is skeptical about the possibility of curing diabetes, pointing out that these results are not applicable to people who already have type 1 diabetes.*",
+        "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes."
+      ]
+    ]
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "strategy": "TEaR",
+    "bleu": 0.97,
+    "chrf": 5.05,
+    "samples": [
+      [
+        "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté.",
+        "**Step 1 (Translate):**",
+        "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added."
+      ],
+      [
+        "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts.",
+        "**Step 1 (Translate):**",
+        "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days."
+      ],
+      [
+        "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1.",
+        "**Step 1 (Translate):**",
+        "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes."
+      ]
+    ]
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "strategy": "Self-Refine",
+    "bleu": 28.18,
+    "chrf": 56.7,
+    "samples": [
+      [
+        "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté.",
+        "\"« We now have mice that are not diabetic, while they were diabetic before », he added.\"",
+        "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added."
+      ],
+      [
+        "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts.",
+        "**\"Dr. Ehud Ur, professor of medicine at the University of Halifax (Nova Scotia) and president of the Clinical and Scientific Division of the Canadian Diabetes Association, has warned that the research is still in its early stages.\"**",
+        "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days."
+      ],
+      [
+        "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1.",
+        "*Like other experts, he expresses skepticism about the possibility of curing diabetes, noting that these results are not applicable to people with type 1 diabetes.*",
+        "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes."
+      ]
+    ]
+  }
+]

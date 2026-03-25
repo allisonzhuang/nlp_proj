@@ -1,0 +1,58 @@
+[
+  {
+    "src": "English",
+    "tgt": "French",
+    "k_shot": 0,
+    "bleu": 24.93,
+    "chrf": 50.49
+  },
+  {
+    "src": "English",
+    "tgt": "French",
+    "k_shot": 1,
+    "bleu": 22.58,
+    "chrf": 48.39
+  },
+  {
+    "src": "English",
+    "tgt": "French",
+    "k_shot": 3,
+    "bleu": 25.75,
+    "chrf": 51.47
+  },
+  {
+    "src": "English",
+    "tgt": "French",
+    "k_shot": 5,
+    "bleu": 25.65,
+    "chrf": 50.07
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "k_shot": 0,
+    "bleu": 30.61,
+    "chrf": 59.12
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "k_shot": 1,
+    "bleu": 31.9,
+    "chrf": 60.23
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "k_shot": 3,
+    "bleu": 30.47,
+    "chrf": 58.5
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "k_shot": 5,
+    "bleu": 30.68,
+    "chrf": 58.41
+  }
+]
