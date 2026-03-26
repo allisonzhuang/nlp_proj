@@ -1,0 +1,74 @@
+[
+  {
+    "label": "Baseline (no FT)",
+    "bleu": 1.16,
+    "chrf": 14.27,
+    "comet": 0.3842,
+    "translations": [
+      "Sizakwazi ukuba nesilwane esilula esingumfana weminyaka emithathu esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminyaka emithathu, esingumfana weminy",
+      "The study, published in the journal Diabetes Care, found that the risk of developing type 2 diabetes was 1.5 times higher in people who had a high intake of saturated fat, compared to those who had a low intake.",
+      "Njengomunye wabaphambili, ucinga ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi ukuthi",
+      "Nga-Mondela, Sara Danius, u-sekare-ngqongqoshe we-Nobel Committee for Literature e-Sweden Academy, ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku ngoku",
+      "Danius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.",
+      "Ngaphambili, i-CEO ye-Ring, Jamie Siminoff, wathi inkampani yasuka lapho i-doorbell yakhe ayikho isaziswe kusuka kwisikrini sakhe esikhishini esikhishini.",
+      "He built a WiFi door bell, he said.",
+      "The company has raised $1.5 million in funding from investors including the founders of the popular online retailer Zappos.com.",
+      "In late 2017, Siminoff appeared on shopping television channel QVC",
+      "Ring also settled a lawsuit with competing security company, the ADT Corporation."
+    ]
+  },
+  {
+    "label": "IoFT",
+    "bleu": 5.52,
+    "chrf": 31.69,
+    "comet": 0.6571,
+    "translations": [
+      "<em>\"Siyenawo iimpuku ezisemaphetheni ezintlanu ezingenzi ukugula kwabantu abangenawo iidiabetes,\" wathi.</em>",
+      "uEhud Ur, isifundiswa sezezi ngxaki yezonyango eDalhousie University eHalifax, eNova Scotia, kunye nomlawuli webandla lezobuchwephesha nasezobuchwephesha beCanadian Diabetes Association wabeka ingqalelo ekubeni uphando luye lufikelele kwixesha eliphambili.",
+      "<em>Njengoowenzi abanye, uyabanga ukuba ukhathazwa ngokuqiniswa kwe-diabetes, ukutyhila ukuba ezi zinto zingenakubalulekanga kwabantu abanayo i-diabetes yokuqala.</em>",
+      "ngoLwesibini, uSara Danius, umsebenzi oqhubekayo weNobel Committee for Literature kwiSwedish Academy, waphinda wajongana kwindawo yaseSweden ngumsebenzi weRadio, ekhankanya iqela leNobel, elingakwazi ukufikelela kuBob Dylan ngqo malunga nokufumana iNobel Prize 2016, yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye yaye y",
+      "ithi uDanius, \"Ngoku sihlala singenzi nawo nto. Ndithethe ndaye ndasendla i-email kumxhasi wakhe wokuqala ndaye ndafumana iimpendulo ezintle. Ngoku, oko kwakunjengo.",
+      "<em>Ngaphambili, uCEO kaRing, uJamie Siminoff, wabonisa inkampani yaqalisa xa isikhephe sakhe sasingalawulwa kwisikhephe sakhe kwisigcino sakhe.</em>",
+      "Wakha umnyango we-WiFi, wathi.",
+      "<strong>uSiminoff wathi ukuthengiswa kwakhuphuka emva kokubonakala kwakhe kwisikhashana seShark Tank apho iqela le show lahlala liyavela ukuxhaswa kwisicwangciso.</strong>",
+      "ngaphakathi, uSiminoff wabonakala kwinkundla yezothengisa iTV yaseQVC.",
+      "uring ukwabamba umthetho neenkampani ezikhalelayo zokhuseleko, i-ADT Corporation."
+    ]
+  },
+  {
+    "label": "CoTFT (CoT)",
+    "bleu": 4.39,
+    "chrf": 29.02,
+    "comet": 0.6217,
+    "translations": [
+      "Siyabafumana abamshana abangama-4 ubudala abangengabo abangathandi ukutya okutshanje, yena owayesebenzisa ukutya okutshanje,\" owayesenza.",
+      "U-Dr. Ehud Ur, owayengumprofesa wezifo ezibonakalayo eDalhousie University eHalifax, Nova Scotia, kunye nomkhokeli weqela lezifundo zonyango nezenzululwazi zeCanadian Diabetes Association, ukhathazekile ukuba uphando lusekwe kwiminyaka yokuqala.",
+      "Njengo",
+      "UMonsi, uSara Danius, umsebenzi wezikhulu zikawonke-wonke kwiKomiti yeNobel yobugcisa eSwedish Academy, wathi ngaphandle kwesigaba esikhulu kwiSveriges Radio eSweden, iKomiti, engakwazi ukufikelela kwiBob Dylan ngqo malunga nokufumana iNobel Prize ye 2016 yobugcisa, yaye yakhubaza imizamo yayo yokufikelela kuye.",
+      "U Danius uthe, \"Ngoku, asikwenza nto. Ndiyeke ukuthetha nokuthumela im",
+      "Ngaphambili, i-CEO kaRing, uJamie Siminoff, uthi inkampani yasekwa xa isikrini sakhe sasekhaya sasengavumi kakhulu.",
+      "Ukwakha i-WiFi door bell, yena othi.",
+      "USiminoff uthe ukuthengiswa kwemveliso kwanda emva kokubonakala kwakhe kwinkqubo ye-Shark Tank apho iqela le show liye lahla ukuxhaswa kwinkampani yase-startup.",
+      "Ngo-2017, uSiminoff wabonakala kwinkqubo yeTV yasekhaya i-QVC.",
+      "URing uphinde afikelele kwisigwebo esiphikisanayo neyona nkampani yezokhuseleko, i-ADT Corporation."
+    ]
+  },
+  {
+    "label": "CoTFT (MAPS)",
+    "bleu": 8.33,
+    "chrf": 36.89,
+    "comet": 0.6966,
+    "translations": [
+      "Siyenawo imice ezincinci zenyanga ezine ezingadibhekanga ezingazange zibe ngadibhekanga,\" wathi.",
+      "Dr. Ehud Ur, uprofesa wezonyango eDalhousie University eHalifax, eNova Scotia kunye nomkhokeli wecala lezonyango nezenzululwazi yeCanadian Diabetes Association ukhathazekile ukuba uphando luyasaseleyo kwimihla yokuqala.",
+      "Ngokufanayo nezinye iingcali, unengxaki malunga nokuba ukugula kwesifo seswekile kunokunyangezwa, uqaphele ukuba ezi zinto zifumene zingenakubaluleka kwabantu abanomhlaza weType 1.",
+      "Ngomhla kaMhlophe, uSara Danius, i-sekretari ye-permanent yeKomiti yeNobel yeLitshala kwi-Academy yaseSweden, wazisa ngokubalulekileyo ngexesha leprogramu yerediyo kwiSveriges Radio eSweden iKomiti, engakwazi ukufikelela uBob Dylan ngokuthe ngqo malunga nokufumana iNobel Prize ka-2016 kwiLitshala, yayiswele iinzame zayo zokufikelela kuye.",
+      "UDanius uthe, \"Kule mihla asenza nto. Ndinikele naye ndathumela iimeyili kubahlobo bakhe ababuleleyo kwaye ndafumana imipondolo yobuhlobo obunobuhlobo. Kule mihla, yiyo le nto ingaba yanele.",
+      "Ngaphambili, u-CEO weRing, uJamie Siminoff, wabonisa ukuba inkampani yaqala xa isikhephe sakhe esibonisa isikhephe asikwazi ukubonwa kwisikhephe sakhe esingaphakathi kwegareji yakhe.",
+      "Uyakha isikhephe seWiFi, wathi.",
+      "USiminoff uthe ukuthengiswa kwakhulisa emva kokubonakala kwakhe kwisigaba seShark Tank kwindawo apho ipaneli yomboniso yagqithisa imali yokuqala.",
+      "I-Siminoff wabonakala kwinkundla yaseTV yezoshishino iQVC ngo-2017.",
+      "Iring ikwaphumelele ukulwa nenkampani yezokhuseleko ekhuphisanayo, i-ADT Corporation."
+    ]
+  }
+]

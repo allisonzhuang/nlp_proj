@@ -1,0 +1,19 @@
+{
+  "model": "IoFT",
+  "n_eval": 200,
+  "bleu": 6.52,
+  "chrf": 31.29,
+  "comet": 0.6484,
+  "translations": [
+    "ithi ngoku sinemice enesinyaka esingama-4 edla ngokungafuni ukutya okuneswekileyo, athi ke kwathi.",
+    "ithi uMkhulu Ehud Ur, owayengumprofesa wezonyango eDalhousie University eHalifax, Nova Scotia kunye nomkhulu weziko lezonyango kunye nenzululwazi yaseCanada Diabetes Association, wayekhathazekile ngokuba uphando luhlala lusekuqaleni.",
+    "Njengamanye amagqirha athile, uyathandabuza ukuba ingaba ukhathazeko lwezifo lungenziwa, ukutyhila ukuba ezi zinto zingenakubandakanyeka kwabantu abanomhlaza weTyhila 1.",
+    "ngoMhlophe, uSara Danius, umsebenzi ohlala eSweden, wazisa ngokubonakalayo kwinkqubo yerediyo yaseSweden, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee",
+    "ithi uDanius, \"Ngokuqondene, asenze nento enye. Ndithethe ndaye ndathumela iimeyile kumntu othelekileyo kuye ndaye ndafumana iimpendulo ezintle kakhulu. Ngokuqondene, oko kwanele ngokuzithandana.",
+    "ithi, uRing CEO, uJamie Siminoff, wabhala inkampani yasekwa xa isikhephe sakhe sakho esingekho kwiindawo zakhe zokuthengisa.",
+    "Wakha i-WiFi door bell, yena othi.",
+    "uSiminoff wathi ukuthengiswa kwakhuphuka emva kokubonakala kwakhe kwisithombe seShark Tank apho ipaneli yomboniso yagqithisa ukuxhaswa kwinkampani yokuqala.",
+    ", uSiminoff wabonakala kwinkundla yezothengiso zeTV yaseQVC.",
+    "uringi uphinde waphatha imisitho neenkampani ezikhuphisana nezokhuseleko, i-ADT Corporation."
+  ]
+}
