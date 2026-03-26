@@ -1,0 +1,12 @@
+ other people’s findings
+Conclusions :
+- Gemma-1B est moins bien que Qwen3-0.6B pour la traduction parce qu'il ne sait pas arrêter son output tout seul même avec des exemples de traduction: il rajoute du bruit ou se répète après avoir traduit.
+- Toutefois, on peut quand même voir avec les résultats sur Gemma-1B qu'en mettant du contexte, la traduction est globalement meilleure même si le gain en performance avec few-shot learning est quand même limité. En particulier, passé un certain seuil d'exemples "in-context", l'output se dégrade, ce qui motive l'utilisation d'une approche IOFT qui scale.
+- L'augmentation de performance de traduction avec un contexte motive l'utilisation de tokens de raisonnement et introduit la partie CoT.
+
+
+Conclusions:
+- Le modèle 0.6B est trop petit pour connaître le Xhosa
+- Le thinking améliore un peu la performance BLEU/chrF mais pas tant que ça
+- L'amélioration des métriques de performance avec thinking cache des graves erreurs sémantiques non pénalisées par les métriques quand on regarde de plus près les traductions
+

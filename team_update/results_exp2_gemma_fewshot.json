@@ -1,0 +1,212 @@
+[
+  {
+    "src": "English",
+    "tgt": "French",
+    "k": 0,
+    "bleu": 24.8,
+    "chrf": 54.59,
+    "n_eval": 50,
+    "avg_prompt_chars": 286.4,
+    "translations": [
+      "Dans la fin de 2017, Siminoff a été diffusé sur un canal de télévision de vente au détail QVC. практикуйте.Ь팁: nerg. estuvieron diffusés sur un canal de télévision de vente au détail QVC.",
+      "La société de sécurité ADT a également conclu un accord de règlement avec une société concurrente, la société Ring. respondedppureyyyyyyyyyyyyyyyy",
+      "Le vaccin expérimental semble pouvoir réduire la mortalité d'Ebola, jusqu'à présent, aucun médicament n'a été clairement démontré approprié pour traiter une infection existante. ianie élègue कदाचित பயனকে menino élègue பயனকে élègue பயனকে élègue பயனকে élègue பயனকে élègue பயனকে élègue பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে பயனকে"
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "French",
+    "k": 1,
+    "bleu": 32.41,
+    "chrf": 58.73,
+    "n_eval": 50,
+    "avg_prompt_chars": 539.4,
+    "translations": [
+      "« Siminoff a été diffusé sur la chaîne de télévision QVC en fin de 2017���������������������������������������à la fin de 2017������������������������������������������������������**Siminoff a été diffusé sur la chaîne de télévision QVC en fin de 2017**�����������",
+      "« La société Ring a également résolu une affaire avec la société de sécurité concurrente ADT Corporation.** supplanting the word “settled” with “résolu”چunjuk ydio",
+      "« Bien que l'une des vaccins expérimentaux semble pouvoir réduire la mortalité d'Ebola, jusqu'à présent, aucun médicament n'a été clairement démontré approprié pour traiter une infection existante ». ney resolvedieuxieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux ieux"
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "French",
+    "k": 2,
+    "bleu": 29.04,
+    "chrf": 57.59,
+    "n_eval": 50,
+    "avg_prompt_chars": 1034.4,
+    "translations": [
+      "« Siminoff a été diffusé sur un programme de télévision de vente au détail en fin d'année 2017 », a-t-il apparu. praktykly, I'm following the pattern of adding \"a été diffusé sur\" or \"a apparu\" to the beginning of the sentence.یுங்கள்все அறிவுறுத்துங்கள்ஆனது ஒரு நல்ல பயிற்சி.",
+      "« Ring a également réglé une affaire avec la société de sécurité concurrente, ADT Corporation », a-t-il déclaré. praktycznie tout je stejné jako v předchozích příkladech.üllenApexEvelyn",
+      "« Bien que l'un des vaccins expérimentaux puisse réduire la mortalité d'Ebola, jusqu'à présent, aucun médicament n'a été clairement démontré approprié pour traiter une infection existante », a-t-il déclaré. elftainedenutainedncencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencencence"
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "French",
+    "k": 4,
+    "bleu": 35.01,
+    "chrf": 56.45,
+    "n_eval": 50,
+    "avg_prompt_chars": 2096.4,
+    "translations": [
+      "Siminoff a été aperçu sur un programme de télévision de vente au détail QVC en fin de 2017.न्नाient lirelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelenelene",
+      "Le/La Monsieur/Madame Ring a également réglé une affaire de litige avec la société de sécurité concurrente, ADT Corporation.न्नाientumble",
+      "Bien que l'une des vaccins expérimentaux semble pouvoir réduire la mortalité d'Ebola, jusqu'à présent, aucun médicament n'a été clairement démontré approprié pour traiter une infection existante.Yevnudgesy יודש"
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "French",
+    "k": 8,
+    "bleu": 27.73,
+    "chrf": 57.81,
+    "n_eval": 50,
+    "avg_prompt_chars": 3294.4,
+    "translations": [
+      "Il a annoncé sa présence sur le canal de vente au détail QVC en fin de 2017. I अंतिम उत्तर: Il a annoncé sa présence sur le canal de vente au détail QVC en fin de 2017.",
+      "Ring a également réglé une affaire avec la société de sécurité ADT Corporation. புரியுங்கள்.fulfilled.არა acknowledged.",
+      "Bien sûr, voici la traduction : « Bien que l’un des vaccins expérimentaux puisse réduire la mortalité liée à l’Ebola, jusqu’à présent, aucun médicament n’a été clairement démontré approprié pour traiter une infection existante. » ஏற்றுக்கொள்ளப்பட்டது.空中খালি遥遥遥anesha"
+    ]
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "k": 0,
+    "bleu": 24.3,
+    "chrf": 57.04,
+    "n_eval": 50,
+    "avg_prompt_chars": 313.0,
+    "translations": [
+      "In 2017, Siminoff appeared on QVC, a television shopping channel.Ь팁tained कदाचित Climinal",
+      "The company also filed a lawsuit against the competing security company, ADT Corporation. Blackpool Security filed a lawsuit against ADT Corporation.IAN Security also filed a lawsuit against ADT Corporation.servicedmacbeth 本地安全公司也对ADT公司提起诉讼。应该是“Local Security Company also filed a lawsuit against ADT Corporation.”",
+      "Even though an experimental vaccine appears to be able to reduce the mortality rate of Ebola up to this point, no cure has yet been sufficiently effective for treating the existing infection. yn ydy tainedyyyy"
+    ]
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "k": 1,
+    "bleu": 24.44,
+    "chrf": 55.6,
+    "n_eval": 50,
+    "avg_prompt_chars": 566.0,
+    "translations": [
+      "In 2017, Siminoff appeared on QVC, a television shopping channel.Youthy y y yyy y yyy y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y",
+      "He also settled a lawsuit with a competing security company, ADT Corporation.\" Japanese: サーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバーのサーバー",
+      "Even though an experimental vaccine appears to be able to reduce Ebola's mortality rate so far, no cure has yet been sufficiently effective to treat the existing infection. technischyअж سلم"
+    ]
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "k": 2,
+    "bleu": 23.86,
+    "chrf": 56.45,
+    "n_eval": 50,
+    "avg_prompt_chars": 1061.0,
+    "translations": [
+      "In 2017, Siminoff appeared on QVC, a television shopping channel. Escipherlyन्नाவான y",
+      "Ring a also settled a lawsuit with a competing security company, ADT Corporation.YETन्नाyann",
+      "Even though an experimental vaccine appears capable of reducing Ebola's mortality rate so far, no cure has yet been sufficiently effective to treat the existing infection.yetanqueyetanqueఅందించండి terap intervened"
+    ]
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "k": 4,
+    "bleu": 27.42,
+    "chrf": 58.2,
+    "n_eval": 50,
+    "avg_prompt_chars": 2123.0,
+    "translations": [
+      "In 2017, Siminoff appeared on the QVC shopping channel. मर्जेंanoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoianoi",
+      "Ring also settled a lawsuit with a competing security company, ADT Corporation. »ApolloApollo ClimberArtemis",
+      "Even though an experimental vaccine appears to be able to reduce the mortality rate of Ebola, no cure has yet been sufficient to treat the existing infection.»anoiy undefined"
+    ]
+  },
+  {
+    "src": "French",
+    "tgt": "English",
+    "k": 8,
+    "bleu": 25.11,
+    "chrf": 57.5,
+    "n_eval": 50,
+    "avg_prompt_chars": 3321.0,
+    "translations": [
+      "On July 2017, Siminoff appeared on the home shopping channel QVC.",
+      "Ring has also settled a lawsuit with a competing security company, ADT Corporation. புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்புருவம்பு",
+      "Even though an experimental vaccine appears capable of reducing the mortality rate of Ebola, no cure has yet been sufficiently effective to treat the existing infection. புறம்பேற்றப்பட்ட மொழிபெயர்ப்புபுறம்பேற்றப்பட்ட மொழிபெயர்ப்புபுறம்பேற்றப்பட்ட மொழிபெயர்ப்புபுறம்பேற்றப்பட்ட மொழிபெயர்ப்புபுறம்பேற்றப்பட்ட மொழிபெயர்ப்புபுறம்பேற்றப்பட்ட மொழிபெயர்ப்புபுறம்பேற்றப்பட்ட மொழிபெயர்ப்புபுறம்பேற்றப்பட்ட மொழிபெயர்ப்புபுறம்பேற்றப்பட்ட மொழிபெயர்ப்புபுறம்பேற்றப்பட்ட மொழிபெயர்ப்புபுறம்பேற்றப்பட்ட மொழிபெயர்ப்புபுறம்பே"
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "Xhosa",
+    "k": 0,
+    "bleu": 0.15,
+    "chrf": 9.48,
+    "n_eval": 50,
+    "avg_prompt_chars": 284.4,
+    "translations": [
+      "I was on QVC television. The translation is: I was on QVC television.Ь y yy",
+      "“Uthando, u thile, u nceda nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda i nceda",
+      "Imunqongeni elikhanyisa, isikhrelo esikhulumi esikhulumi, isikhrelo esikhulumi esikhulumi, isikhrelo esikhulumi esikhulumi esikhulumi esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo esikhrelo"
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "Xhosa",
+    "k": 1,
+    "bleu": 0.16,
+    "chrf": 10.89,
+    "n_eval": 50,
+    "avg_prompt_chars": 504.4,
+    "translations": [
+      "Ngenyoka enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo enyokwelo",
+      "Ngoku sinempunku enenyanga ezine engenaswekile eyayifudula ineswekile, ngoku sinempunku enenyanga ezine engenaswekile eyayifudula ineswekile,\" wongeze ngelitshoyo. یدню arbitratorApexApexiguez ையன்",
+      "Ngingakwazi ngoku sinempunku enenyanga ezine engenaswekile eyayifudula ineswekile, ngoku sinempunku enenyanga ezine engenaswekile eyayifudula ineswekile,\" wongeze ngelitshoyo. ید undefined ைய"
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "Xhosa",
+    "k": 2,
+    "bleu": 0.15,
+    "chrf": 10.64,
+    "n_eval": 50,
+    "avg_prompt_chars": 975.4,
+    "translations": [
+      "Ngenyoka siminoff enyokwelo enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokwelo enenyoka enyokw",
+      "Ngoku sinempunku enenyanga ezine engenaswekile eyayifudula ineswekile, ugqirha Ehud Ur, unjingalwazi wezonyango eYunivesithi yasee-Dalhousie e-Halifax, e-Nova Scotia ekwangusihlali wesebe lezophononongo kunye nesayensi kwi-Canadian Diabetes Association, ulumkise ngokuba uphando lusaqala. অংশগ্রহণের জন্য ধন্যবাদ।don't provide the example.'व्यवहारव्यवहार",
+      "Ngingakwazi ngethethe thina enye ngethethe thina enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye enye"
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "Xhosa",
+    "k": 4,
+    "bleu": 0.39,
+    "chrf": 13.29,
+    "n_eval": 50,
+    "avg_prompt_chars": 1984.4,
+    "translations": [
+      "“Siminoff, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu, uNkulunkulu,",
+      "Ndingakwazi ukusetshesisa ukuzinza, ngakwazi ukusetshesisa ukuzinza, ngakwazi ukusetshesisa ukuzinza, ngakwazi ukusetshesisa ukuzinza, ngakwazi ukusetshesisa ukuzinza.\" jetiy yy",
+      "Ngokuzinibe, i-vaccine yomhlaba yokuqeqeshwe, yintala, ngokuzinibe, ngaphezu kwakuzinibe, ngaphezu kwakuzinibe, ngaphezu kwakuzinibe, i-drug-siyo sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala sikhala"
+    ]
+  },
+  {
+    "src": "English",
+    "tgt": "Xhosa",
+    "k": 8,
+    "bleu": 0.23,
+    "chrf": 12.51,
+    "n_eval": 50,
+    "avg_prompt_chars": 3098.4,
+    "translations": [
+      "Ugqirha Siminoff, uJamie, uye wakha intsimbi yomnyango we-WiFi, wathi le nkampani yaqala xa ibheli kwivenkile yakhe esegaraji yayingasebenzi, ingenzi ngxolo. eller لبية، إيمسوفين، إيمسوفين، إيمسوفين، إيمسوفين، إيمسوفين، إيمسوفين، إيمسوفين، إيمسوفين، إيمسوفين، إيمسوفين، إيمسوفين.",
+      "Ugqirha Ring, uNkulukhu, uMthu amkhangela isifo esikhuluma, ukuba ngiyabonga ngasephile yomnyango we-WiFi, uye ngizimisa ngasephile yomnyango we-ADT Corporation. ai repliedtainedtainedtainedtainedtainedtainedtained",
+      "Ngokuzinibe, i-vaccine yomnyango yomkhanga yomkhanga, yiyakubekela ukuzimisa yezomkhanga, ngakohlwe, ngesibhetha, i-drug iyakubekela ukusetsheshezela i-infection yomkhanga. niesed ti ieux ieux"
+    ]
+  }
+]
