@@ -1,0 +1,56 @@
+[
+  {
+    "label": "IoFT (direct prompt)",
+    "bleu": 6.52,
+    "chrf": 31.29,
+    "comet": 0.6484,
+    "translations": [
+      "ithi ngoku sinemice enesinyaka esingama-4 edla ngokungafuni ukutya okuneswekileyo, athi ke kwathi.",
+      "ithi uMkhulu Ehud Ur, owayengumprofesa wezonyango eDalhousie University eHalifax, Nova Scotia kunye nomkhulu weziko lezonyango kunye nenzululwazi yaseCanada Diabetes Association, wayekhathazekile ngokuba uphando luhlala lusekuqaleni.",
+      "Njengamanye amagqirha athile, uyathandabuza ukuba ingaba ukhathazeko lwezifo lungenziwa, ukutyhila ukuba ezi zinto zingenakubandakanyeka kwabantu abanomhlaza weTyhila 1.",
+      "ngoMhlophe, uSara Danius, umsebenzi ohlala eSweden, wazisa ngokubonakalayo kwinkqubo yerediyo yaseSweden, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee for Literature, uNobel Committee",
+      "ithi uDanius, \"Ngokuqondene, asenze nento enye. Ndithethe ndaye ndathumela iimeyile kumntu othelekileyo kuye ndaye ndafumana iimpendulo ezintle kakhulu. Ngokuqondene, oko kwanele ngokuzithandana.",
+      "ithi, uRing CEO, uJamie Siminoff, wabhala inkampani yasekwa xa isikhephe sakhe sakho esingekho kwiindawo zakhe zokuthengisa.",
+      "Wakha i-WiFi door bell, yena othi.",
+      "uSiminoff wathi ukuthengiswa kwakhuphuka emva kokubonakala kwakhe kwisithombe seShark Tank apho ipaneli yomboniso yagqithisa ukuxhaswa kwinkampani yokuqala.",
+      ", uSiminoff wabonakala kwinkundla yezothengiso zeTV yaseQVC.",
+      "uringi uphinde waphatha imisitho neenkampani ezikhuphisana nezokhuseleko, i-ADT Corporation."
+    ]
+  },
+  {
+    "label": "CoTFT-CoT (direct prompt)",
+    "bleu": 4.32,
+    "chrf": 28.47,
+    "comet": 0.619,
+    "translations": [
+      "Siyabafumana abamshana abangama-4 ubudala abangengabo abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya abangathandi ukutya ab",
+      "UGqirha Ehud Ur, umprofesa wezifo ezibonakalayo eDalhousie University eHalifax, Nova Scotia, kunye nomkhokeli weqela lezifundo zonyango nezenzululwazi zeCanadian Diabetes Association, ukhathazekile ukuba uphando lusekwe kwiminyaka yokuqala.",
+      "Njengoosomashishini abanye, uyathandabuza ukuba ukhathazwa ngabantu abanemibuthano yobugangwa, ucinga ukuba le ngxelo ayinobuhlobo kubantu abanemibuthano yobugangwa.",
+      "UMonsi, uSara Danius, umsebenzi wezikhulu beNobel Committee for Literature kwiSwedish Academy, wathi ngaphandle kwinkqubo yethala lweRadio eSweden, i-committee, engakwazi ukufikelela kwiBob Dylan ngqo malunga nokufumana i-2016 Nobel Prize in Literature, yaye yakhubaza imizamo yayo yokufikelela kuye.",
+      "UDanius uthe, \"Ngoku, asikwenza nto nawo. Ndiyebhala iimayile kuye kwaye ndikwazile ukufumana iimpendulo ezintle kakhulu. Ngoku, oku kwanele.",
+      "Ngaphambili, i-CEO kaRing, uJamie Siminoff, uthi inkampani yasekwa xa isikrini sakhe sasekhaya sasengavumi kakhulu.",
+      "Ukwakha i-WiFi door bell, yena othi.",
+      "USiminoff uthe ukuthengiswa kwemveliso kwanda emva kokubonakala kwakhe kwinkqubo ye-Shark Tank apho iqela le show liye lahla ukuxhaswa kwinkampani yase-startup.",
+      "Ngo-2017, uSiminoff wabonakala kwinkqubo yeTV yasekhaya i-QVC.",
+      "URing uphinde afikelele kwisithethe esiphikisanayo neyona nkampani yezokhuseleko, i-ADT Corporation."
+    ]
+  },
+  {
+    "label": "CoTFT-MAPS (direct prompt)",
+    "bleu": 6.99,
+    "chrf": 33.56,
+    "comet": 0.6655,
+    "translations": [
+      "Iimice zaye",
+      "Unyaniso uDr. Ehud Ur, uprofesa wezonyango eDalhousie University eHalifax, eNova Scotia kunye nomkhokeli wecandelo lezonyango nezenzululwazi yeCanadian Diabetes Association ukhathazekile ukuba uphando luyasaseleyo kwimihla yokuqala.",
+      "Ukwakhe enye yeeengcaphephe ezikholelwa ekubeni ukugula kwediyabhethisi kunokunyangezwa, ebonisa ukuba ezi zinto zifumene zingenakubaluleka kwabantu abanengxaki yodiyabhethisi yohlobo lwe-1.",
+      "Ngomhla kaMhlophe, uSara Danius, i-sekretari yasekhaya yeKomiti yeNobel yeLitshala eSwedish Academy, wazisa ngokubalulekileyo ngexesha leprogramu yerediyo kwiSveriges Radio eSweden iKomiti, engakwazi ukufikelela uBob Dylan ngokuthe ngqo malunga nokufumana iNobel Prize ka-2016 yeLitshala, yayishiyile iinzame zayo zokufikelela kuye.",
+      "UDanius uthe, \"Kule mihla asenza nto. Ndinikele naye ndathumela iimeyili kubahlobo bakhe abasondeleyo kwaye ndafumana imipondolo emihle kakhulu. Kule mihla, yiyo le nto ingaba yanele.",
+      "I-Ring, i-CEO yayo, uJamie Siminoff, wathi inkampani yaqalisa xa isikhephe sakhe esibonakalayo asikwazi ukubonakala kwisikhephe sakhe esingaphantsi kwegareji.",
+      "Uyakha isikhephe seWiFi, wathi.",
+      "Isiminoff uthe ukuthengiswa kwakhulisa emva kokubonakala kwakhe kwisigaba seShark Tank apho ipaneli yomboniso yagqithisa imali yokuqala.",
+      "Ngo-2017, uSiminoff wabonakala kwisithili seTV sokuthenga iQVC.",
+      "URing ukwazile ukusombulula isigwebo esingxabantana nenkampani yezokhuseleko ekhuphisanayo, i-ADT Corporation."
+    ]
+  }
+]

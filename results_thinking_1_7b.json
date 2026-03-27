@@ -1,0 +1,134 @@
+[
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "src": "English",
+    "tgt": "French",
+    "mode": "Thinking",
+    "scores": {
+      "bleu": 35.92,
+      "chrf": 59.3,
+      "comet": 0.8278
+    },
+    "n_outputs": 50,
+    "n_with_think_block": 50,
+    "examples": [
+      {
+        "source": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+        "reference": "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté.",
+        "hypothesis": "Nous avons maintenant des souris de 4 mois qui sont non-diabétiques, mais qui avaient été diabétiques, il a ajouté.",
+        "raw_output": "<think>\nOkay, the user wants a high-quality French translation of the given English sentence. Let me start by understanding the original sentence. The sentence is: \"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.\n\nFirst, I need to make sure I capture the meaning accurately. The key points are: 4-month-old mice, non-diabetic, used to be diabetic. The person is adding this information.\n\nIn French, \"4-month-old\" would be \"4 mois\" or \"4 mois âgés\". \"Mice\" is \""
+      },
+      {
+        "source": "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+        "reference": "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts.",
+        "hypothesis": "M. Ehud Ur, professeur de médecine à l'Université de Dalhousie à Halifax, en Nova Scotia et président de la division clinique et scientifique de l'Association canadienne du diabète, a prévenu que la recherche est encore en phase initiale.",
+        "raw_output": "<think>\nOkay, the user wants a high-quality French translation of the given English sentence. Let me start by understanding the original sentence thoroughly.\n\nThe sentence is: \"Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.\"\n\nFirst, I need to identify the key components. The subject is Dr. Ehud Ur, who is a professor of"
+      },
+      {
+        "source": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+        "reference": "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1.",
+        "hypothesis": "Comme d'autres experts, il est sceptique sur la question de savoir si la diabète peut être guéri, notant que ces résultats n'ont pas de rélevance pour les personnes qui ont déjà de la diabète type 1.",
+        "raw_output": "<think>\nOkay, the user wants a French translation of the given English sentence. Let me start by understanding the original sentence thoroughly.\n\nThe sentence is: \"Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.\"\n\nFirst, I need to translate each part accurately. The key points are: he is skeptical about curing diabetes, the findings are irrelevant to people with Type 1 diabetes."
+      }
+    ]
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "src": "English",
+    "tgt": "French",
+    "mode": "Non-Thinking",
+    "scores": {
+      "bleu": 35.99,
+      "chrf": 59.26,
+      "comet": 0.8263
+    },
+    "n_outputs": 50,
+    "n_with_think_block": 0,
+    "examples": [
+      {
+        "source": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+        "reference": "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté.",
+        "hypothesis": "«Nous avons maintenant des souris de 4 mois non diabétiques qui, avant, étaient diabétiques», il ajouta.",
+        "raw_output": "«Nous avons maintenant des souris de 4 mois non diabétiques qui, avant, étaient diabétiques», il ajouta."
+      },
+      {
+        "source": "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+        "reference": "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts.",
+        "hypothesis": "Dr. Ehud Ur, professeur de médecine à l'Université de Dalhousie à Halifax, en Nova-Scotie et président de la division clinique et scientifique de l'Association canadienne du diabète avertit que la recherche est encore au début des étapes.",
+        "raw_output": "Dr. Ehud Ur, professeur de médecine à l'Université de Dalhousie à Halifax, en Nova-Scotie et président de la division clinique et scientifique de l'Association canadienne du diabète avertit que la recherche est encore au début des étapes."
+      },
+      {
+        "source": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+        "reference": "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1.",
+        "hypothesis": "Comme d'autres experts, il est sceptique sur la possibilité de guérir le diabète, notant que ces résultats n'ont pas de rélevance pour les personnes qui ont déjà du diabète de type 1.",
+        "raw_output": "Comme d'autres experts, il est sceptique sur la possibilité de guérir le diabète, notant que ces résultats n'ont pas de rélevance pour les personnes qui ont déjà du diabète de type 1."
+      }
+    ]
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "src": "French",
+    "tgt": "English",
+    "mode": "Thinking",
+    "scores": {
+      "bleu": 37.5,
+      "chrf": 64.81,
+      "comet": 0.8761
+    },
+    "n_outputs": 50,
+    "n_with_think_block": 50,
+    "examples": [
+      {
+        "source": "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté.",
+        "reference": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+        "hypothesis": "« We now have 4-month-old mice who are not diabetic, while they were diabetic before », he added.",
+        "raw_output": "<think>\nOkay, the user wants a high-quality English translation of the given French sentence. Let me start by reading the original sentence carefully.\n\nThe sentence is: \"« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté.\"\n\nFirst, I need to make sure I understand the structure. The speaker is quoting someone who says that now they have 4-month-old mice that are not diabetic, even though they were diabetic before. \n\nBreakin"
+      },
+      {
+        "source": "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts.",
+        "reference": "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+        "hypothesis": "Dr. Ehud Ur, professor of medicine at the University of Halifax (Nova Scotia) and president of the clinical and scientific division of the Canadian Diabetes Association, warned that the research was still in its early stages.",
+        "raw_output": "<think>\nOkay, the user wants a high-quality English translation of the given French sentence. Let me start by reading the original sentence carefully.\n\nThe sentence is: \"Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts.\"\n\nFirst, I need to parse the structure. The subject is \"Le Dr Ehud Ur,\" followed by his t"
+      },
+      {
+        "source": "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1.",
+        "reference": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+        "hypothesis": "In the same way as other experts, he is skeptical about the possibility of curing diabetes, noting that these results are not applicable to people who already have type 1 diabetes.",
+        "raw_output": "<think>\nOkay, the user wants a high-quality English translation of the given French sentence. Let me start by reading the original sentence carefully.\n\nThe sentence is: \"À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1.\"\n\nFirst, I need to parse the structure. The main clause is \"il se montre sceptique quant à la possibilité de guérir le"
+      }
+    ]
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "src": "French",
+    "tgt": "English",
+    "mode": "Non-Thinking",
+    "scores": {
+      "bleu": 36.03,
+      "chrf": 63.65,
+      "comet": 0.8726
+    },
+    "n_outputs": 50,
+    "n_with_think_block": 0,
+    "examples": [
+      {
+        "source": "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté.",
+        "reference": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+        "hypothesis": "« We now have 4-month-old mice that are not diabetic, although they were diabetic previously », he added.",
+        "raw_output": "\"« We now have 4-month-old mice that are not diabetic, although they were diabetic previously », he added.\""
+      },
+      {
+        "source": "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts.",
+        "reference": "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+        "hypothesis": "Dr. Ehud Ur, professor of medicine at the University of Halifax (Nova Scotia) and president of the Clinical and Scientific Division of the Canadian Diabetes Association, warned that research was still in its early stages.",
+        "raw_output": "Dr. Ehud Ur, professor of medicine at the University of Halifax (Nova Scotia) and president of the Clinical and Scientific Division of the Canadian Diabetes Association, warned that research was still in its early stages."
+      },
+      {
+        "source": "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1.",
+        "reference": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+        "hypothesis": "In the manner of other experts, he is skeptical about the possibility of curing diabetes, noting that these results are not applicable to people who already have type 1 diabetes.",
+        "raw_output": "In the manner of other experts, he is skeptical about the possibility of curing diabetes, noting that these results are not applicable to people who already have type 1 diabetes."
+      }
+    ]
+  }
+]

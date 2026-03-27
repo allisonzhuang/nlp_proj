@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=thinking-compare
-#SBATCH --partition=gpu          # Change to your H100 partition name
+#SBATCH --partition=compute
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
@@ -15,6 +15,7 @@ source ~/nlp_proj/.venv/bin/activate
 
 export HF_HOME=~/.cache/huggingface
 export HF_HUB_CACHE=~/.cache/huggingface/hub
+export HF_HUB_OFFLINE=1
 
 cd ~/nlp_proj
 
@@ -35,6 +36,7 @@ python eval_thinking_1_7b.py \
     --model Qwen/Qwen3-0.6B \
     --n_eval 50 \
     --batch_size 16 \
+    --max_new_tokens 2048 \
     --use_comet \
     --output_file results_thinking_0_6b.json
 
@@ -50,6 +52,7 @@ python eval_thinking_1_7b.py \
     --model Qwen/Qwen3-1.7B \
     --n_eval 50 \
     --batch_size 8 \
+    --max_new_tokens 2048 \
     --use_comet \
     --output_file results_thinking_1_7b.json
 
